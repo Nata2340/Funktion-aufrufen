@@ -1,0 +1,48 @@
+def open_circuit_potential(c_surf):
+c_max = 15320
+sto = c_surf / c_max
+u_eq = (80.822 
+- 675.423 * (sto**2) 
++ 2237.36160*(sto**4) 
+- 3675.391*(sto**6) 
++ 2627.0590*(sto**8))/(19.43857 
+- 163.629960*(sto**2) 
++ 551.01070*(sto**4) 
+- 929.34050*(sto**6) 
++ 683.9314*(sto**8))
+return u_eq
+step=np.linspace(3000,15320,100)
+y=open_circuit_potential(step)
+plot(step,y)
+plt.plot(step,y)
+plot
+plt.plot(step,y)
+plot.show89
+plot.show()
+plt.plot.show()
+plt.show()
+plt.plot(step,y)
+
+def open_circuit_potential(c_surf):
+c_max = 15320
+sto = c_surf / c_max
+u_eq = (80.822 
+- 675.423 * (sto**2) 
++ 2237.36160*(sto**4) 
+- 3675.391*(sto**6) 
++ 2627.0590*(sto**8))/(19.43857 
+- 163.629960*(sto**2) 
++ 551.01070*(sto**4) 
+- 929.34050*(sto**6) 
++ 683.9314*(sto**8))
+return u_eq
+step=np.linspace(3000,15320,100)
+y=open_circuit_potential(step)
+plot(step,y)
+plt.plot(step,y)
+plot
+plt.plot(step,y)
+plot.show()
+plt.plot.show()
+plt.show()
+plt.plot(step,y)
